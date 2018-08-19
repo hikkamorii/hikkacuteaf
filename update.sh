@@ -29,12 +29,18 @@ then
 	fi
 else
 	echo 'hikkaCuteAF update tool. Note that this will replace all your files, but you can use restore.sh to restore from backup. Have fun! (^owo^)ﾉ' | lolcat
-	echo 'Let me make a backup, oni-chan!'
-	mkdir "./backup/backup-$BACT/"
-	cp -r ~/.config/i3/ "./backup/backup-$BACT/i3/"
-	cp ~/.zshrc "./backup/backup-$BACT/.zshrc"
-	cp /etc/i3status.conf ./backup/backup-$BACT/i3status.conf
-	cp /etc/zsh_command_not_found "./backup/backup-$BACT/zsh_command_not_found"
+	if [ $1 = "nobak" ]
+	then
+		echo 'Backup ignored.'
+	else
+		echo 'Let me make a backup, oni-chan!'
+		mkdir "./backup/backup-$BACT/"
+		cp -r ~/.config/i3/ "./backup/backup-$BACT/i3/"
+		cp ~/.zshrc "./backup/backup-$BACT/.zshrc"
+		cp /etc/i3status.conf ./backup/backup-$BACT/i3status.conf
+		cp /etc/zsh_command_not_found "./backup/backup-$BACT/zsh_command_not_found"
+	fi
+	
 	echo 'It is time to update my files! o(〃＾▽＾〃)o'
 	cp hikkamorii.zsh-theme ~/.oh-my-zsh/themes/
 	cp -r linuxowo/ ~/.oh-my-zsh/linuxowo/
