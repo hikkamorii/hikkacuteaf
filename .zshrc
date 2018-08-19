@@ -96,7 +96,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias owo="echo 'Lolicon! OwO' | lolcat"
+alias owo="echo 'Lolicon! owo' | lolcat"
 alias hikkacuteaf="cd ~/.hikkacuteaf && ll"
 alias screenrec='ffmpeg -f x11grab  -s 1366x768 -i :0.0 -r 60 -vcodec libx264 out.mp4'
 alias zyp='sudo zypper'
