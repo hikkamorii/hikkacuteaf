@@ -16,7 +16,9 @@ Things you need for this to run:
 * i3status
 * rofi
 * dvorak layout (ets automatically)
+
 Things you *might* need for this to work
+
 * OpenSUSE Tumbleweed
 * mate-screenshot
 * xfce4-terminal
