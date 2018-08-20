@@ -9,7 +9,7 @@ then
 		echo 'Sowwwy I disappointed you! ( ´•̥̥̥ω•̥̥̥` ) Restoring backup from previous backup.'
 			cd ./backup/backup-$PREV
 			cp .Xresources ~/.Xresources	
-			cp -r i3/ ~/.config/i3/
+			cp -r i3/ ~/.config/
 			cp .zshrc ~/.zshrc
 			echo 'You need to be superuser to restore those! (￣ω￣;)'
 			sudo cp i3status.conf /etc/
@@ -20,7 +20,7 @@ then
 		then
 			cd ./backup/backup-$2	
 			cp .Xresources ~/.Xresources
-			cp -r i3/ ~/.config/i3/
+			cp -r i3/ ~/.config/
 			cp .zshrc ~/.zshrc
 			echo 'You need to be superuser to restore those! (￣ω￣;)'
 			sudo cp i3status.conf /etc/
@@ -37,7 +37,7 @@ else
 	else
 		echo 'Let me make a backup, oni-chan!'
 		mkdir "./backup/backup-$BACT/"
-		cp -r ~/.config/i3/ "./backup/backup-$BACT/i3/"
+		cp -r ~/.config/i3/ "./backup/backup-$BACT/"
 		cp ~/.zshrc "./backup/backup-$BACT/.zshrc"
 		cp /etc/i3status.conf ./backup/backup-$BACT/i3status.conf
 		cp /etc/zsh_command_not_found "./backup/backup-$BACT/zsh_command_not_found"
@@ -45,8 +45,8 @@ else
 	
 	echo 'It is time to update my files! o(〃＾▽＾〃)o'
 	cp hikkamorii.zsh-theme ~/.oh-my-zsh/themes/
-	cp -r linuxowo/ ~/.oh-my-zsh/linuxowo/
-	cp -r i3/ ~/.config/i3/
+	cp -r linuxowo/ ~/.oh-my-zsh/
+	cp -r i3/ ~/.config/
 	cp .zshrc ~/.zshrc
 	cp .Xresources ~/.Xresources
 	echo 'You need to be superuser to update those! (￣ω￣;)' | lolcat
