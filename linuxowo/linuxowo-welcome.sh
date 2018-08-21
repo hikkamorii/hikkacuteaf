@@ -11,7 +11,7 @@
 # 2. linuxowo-cnf.sh 	 -- Command not found handler.
 # 3. TBD!
 # 
-if [ $(date +%H) -lt '22' ] && [ $(date +%H) -gt '12' ]
+if [ $(date +%H) -le '22' ] && [ $(date +%H) -gt '12' ]
 then
 	echo '(＾• ω •＾): Welcome, master!  ~ 私はあなたを愛してい' $(date '+%I:%M:%S %p') | lolcat
 fi
