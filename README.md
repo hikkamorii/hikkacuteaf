@@ -4,7 +4,7 @@ LinuxOwO is a cute little franchise of scripts that give you good vibes everytim
 
 Notes
 =====
-This thing was made mostly for me, to sync my configs between all of my computers, but since someone might want to use my configs too (I know that's a thing in linux comunity) I put it here. Please read **Dependencies** for more info on restrictions. 
+This thing was made mostly for me, to sync my configs between all of my computers, but since someone might want to use my configs too (I know that's a thing in linux comunity) I put it here. Please read **Dependencies** for more info on restrictions. Important note, I switched SUPER and CONTROL keys, so now if you don't want that, make sure to delete .Xmodmap.
 
 Dependencies
 =====
