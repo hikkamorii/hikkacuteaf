@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="hikkamorii"
+ZSH_THEME="hikkamorii2.0"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -102,7 +102,7 @@ alias hikkacuteaf="cd ~/hikkacuteaf && ll"
 alias screenrec='ffmpeg -f x11grab  -s 1366x768 -i :0.0 -r 60 -vcodec libx264 out.mp4'
 alias zyp='sudo zypper'
 alias s='sudo'
+alias pls='sudo -p "[pls] ♡( ◡‿◡ ) I need your password, senpai: "'
 alias l='ls -lh'
 alias ll='ls -A -lh'
 ~/.oh-my-zsh/linuxowo/linuxowo-welcome.sh
-eval $(thefuck --alias)

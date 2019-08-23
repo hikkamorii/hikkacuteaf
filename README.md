@@ -19,7 +19,6 @@ Things you need for this to run:
 
 Things you *might* need for this to work
 
-* OpenSUSE Tumbleweed
 * mate-screenshot
 * xfce4-terminal
 

@@ -44,7 +44,7 @@ else
 	fi
 	
 	echo 'It is time to update my files! o(〃＾▽＾〃)o'
-	cp hikkamorii.zsh-theme ~/.oh-my-zsh/themes/
+	cp hikkamorii*.zsh-theme ~/.oh-my-zsh/themes/
 	cp -r linuxowo/ ~/.oh-my-zsh/
 	cp -r i3/ ~/.config/
 	cp .zshrc ~/.zshrc
