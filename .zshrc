@@ -79,7 +79,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
 	export EDITOR='nano'
 else
-	export EDITOR='nano'
+	export EDITOR='sublime-text.subl'
 fi
 
 # Compilation flags
@@ -105,4 +105,7 @@ alias s='sudo'
 alias pls='sudo -p "[pls] ♡( ◡‿◡ ) I need your password, senpai: "'
 alias l='ls -lh'
 alias ll='ls -A -lh'
+alias swb='swift build'
+alias swc='swiftc'
+alias e='sublime-text.subl'
 ~/.oh-my-zsh/linuxowo/linuxowo-welcome.sh
